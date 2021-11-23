@@ -1,4 +1,4 @@
-class objecct21{	
+class objecct22{	
 
 	public void match() {
 		System.out.println("match none");
@@ -8,10 +8,39 @@ class objecct21{
 
 
 
-class objecct1{
+class objecct21{
 	
 	public static void main(String[] args) {
 		new objecct().match();
 		
 	}
 }
+
+
+
+
+
+/*class objecct22{
+	public void test() {
+		System.out.println("done");
+		match();
+		
+	}
+
+	public void match() {
+		System.out.println("match done");
+		
+	}
+
+}
+
+
+
+class objecct21{
+
+	
+	public static void main(String[] args) {
+		new objecct22().test();
+		
+	}
+}*/

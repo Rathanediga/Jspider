@@ -1,5 +1,5 @@
 class globe1{
-	static int a=5;
+	static int a;
 	public static void test() {
 		System.out.println(a+b);
 		
