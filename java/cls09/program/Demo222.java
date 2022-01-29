@@ -4,7 +4,7 @@ class Demo222{
 	}
 
 	public static void main(String[] args) {
-		Demo22.test();
+		test();
 }
 }
 

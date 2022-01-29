@@ -1,0 +1,18 @@
+/*
+selector{
+    property:value;
+    property:value;
+}
+*/
+h1 {
+  color: burlywood;
+}
+p {
+  color: chocolate;
+}
+span {
+  color: crimson;
+}
+li {
+  color: cyan;
+}

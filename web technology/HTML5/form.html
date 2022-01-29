@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>form creation</h1>
+    <hr>
+
+    <form action="list.html">
+        <label for="name">name</label>
+        <input type="text" id="name" placeholder="enter your name"><br><br>
+
+        <label for="mail">e-mail</label>
+        <input type="email" id="mail" placeholder="enter your e-namil id" required><br><br>
+
+        <label for="pass">password</label>
+        <input type="password" id="pass" placeholder="enter your password" minlength="8" maxlength="15"><br><br>
+
+        <label for="dob">DOB</label>
+        <input type="datetime-local" id="dob"><br><br>
+
+        <label for="phno">phno</label>
+        <input type="tel" id="phno" value="+91" minlength="10" maxlength="13"><br><br>
+
+        <label for="fil">upload your resume</label><br>
+        <input type="file" id="fil"><br><br>
+
+        <fieldset>
+            <legend >select your gender</legend><br>
+        <input type="radio" name="gen" id="r"><label for="r">male</label><br>
+        <input type="radio" name="gen" id="e"><label for="e">female</label><br>
+        <input type="radio" name="gen" id="s"><label for="s">others</label><br>
+        </fieldset>
+
+       <fieldset>
+        <legend>your state</legend>
+        <select name="" id="">
+        <option >select</option>
+        <option >karnataka</option>
+        <option >andra</option>
+        <option >kerala</option>
+        </select>
+       </fieldset><br>
+
+        <input type="submit" value="done">
+        <input type="reset" value="clear">
+
+        
+
+
+    </form>
+    
+</body>
+</html>

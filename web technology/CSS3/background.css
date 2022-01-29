@@ -1,0 +1,25 @@
+body{
+    /* background: url(photos/bg1.png);
+
+    background-color: chartreuse; */
+
+    background: linear-gradient(green,red,orange,yellow,white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: black;
+}

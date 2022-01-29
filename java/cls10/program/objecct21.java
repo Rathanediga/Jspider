@@ -11,7 +11,7 @@ class objecct22{
 class objecct21{
 	
 	public static void main(String[] args) {
-		new objecct().match();
+		new objecct22().match();
 		
 	}
 }

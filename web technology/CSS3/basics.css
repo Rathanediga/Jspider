@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline wavy black 3px;
+    text-transform: uppercase;
+
+    /* text-decoration-color: burlywood;
+    text-decoration-line: line-through;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px; */
+
+    text-shadow:-5px -5px 5px  black;
+
+}
+p{
+    color: purple;
+    font-style: italic;
+}
+
+li{
+    font-family: 'Lobster', cursive;
+}
