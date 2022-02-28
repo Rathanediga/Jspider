@@ -1,0 +1,55 @@
+h1{
+    background-color: violet;
+    margin: 100px;
+    width: 400px;
+    display: block;
+}
+
+p{
+    background-color: crimson;
+    display: block;
+}
+
+span{
+    background-color: yellow;
+}
+
+button{
+    background-color: seagreen;
+}
+
+input{
+    background-color: aqua;
+}
+
+section{
+    background-color: black;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+#i1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#i2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#i3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#i4{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}

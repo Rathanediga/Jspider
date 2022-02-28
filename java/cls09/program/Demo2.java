@@ -1,7 +1,7 @@
 class Demo22{
 	public static void test() {
 		System.out.println("mothod test() is excecuted");
-		match();
+		
 	}
 
 	public static void match() {

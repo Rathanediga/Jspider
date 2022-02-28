@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+}
+
+section{
+    background-color: black;
+    width: 70vw;
+    height: 70vh;
+    margin: 10% 10%;
+}
+
+li{
+    color: white;
+    font-weight: bold;
+    padding-top: 7%;
+}
+
+.c1{
+    background-color: blue;
+    width: 150px;
+    height: auto;
+    position: static;
+    top: 10%;
+    left: 10%;
+}
+
+.c2{
+    background-color: blue;
+    width: 150px;
+    height: auto;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+.c3{
+    background-color: blue;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.c4{
+    background-color: blue;
+    width: 150px;
+    height: auto;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+}
+
+.c5{
+    background-color: blue;
+    width: 150px;
+    height: auto;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+
+
+

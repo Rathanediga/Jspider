@@ -36,7 +36,8 @@ class Demov{
 	
 
 	public static void main(String[] args) {		
-		new Demov().test();
+		Demov value=new Demov();
+		value.test();
 		new Demov().test1();
 		test2();
 		test3();

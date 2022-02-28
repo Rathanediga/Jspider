@@ -8,20 +8,20 @@ class construct2{
 		name=name1;
 		accno=accno1;
 		email=email1;
-		
-	}
 
-	public void test(){
 		System.out.println("name :" + name);
 		System.out.println("accno :" + accno);
 		System.out.println("email :" + email);
+		
 	}
+
+	
 
 	public static void main(String[] args) {
 		construct2 rst=new construct2("Rathanediga",21252830,"rathanediga08@gmail.com");
-		rst.test();
+		
 		construct2 rst1=new construct2("Rathan",2125,"rathanediga08@gmail.com");
-		rst1.test();
+		
 	}
 }
 

@@ -26,14 +26,15 @@ class service{
 	public static void test(Object o){
 		if (o instanceof customer) {
 			customer c1=(customer)o;
-			c1.login();
-			c1.logout();			
+			c1.logout();
+			c1.login();			
 		}
 		else{
 			admin a1=(admin)o;
 			a1.login();
 			a1.logout();
 		}
+		
 
 	}	
 }
@@ -42,8 +43,30 @@ class otsdupdnmain{
 	public static void main(String[] args) {
 		customer c=new customer();
 		admin a=new admin();
-		service.test(c);
+		service.test(a);
 
 		
 	}
 }
+
+
+
+
+
+// if (o instanceof customer) {
+// 			customer c1=(customer)o;
+// 			c1.login();
+// 			c1.logout();			
+// 		}
+// 		else{
+// 			admin a1=(admin)o;
+// 			a1.login();
+// 			a1.logout();
+// 		}
+
+
+
+
+// 		customer c=new customer();
+// 		admin a=new admin();
+// 		service.test(c);

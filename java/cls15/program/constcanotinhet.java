@@ -8,16 +8,18 @@ class b extends a{
 	public b(){
 		System.out.println("b");
 	}
-}
 
-
-
-class constcanotinhet{
 	public static void main(String[] args) {
 		b ba=new b();
 		
 	}
 }
+
+
+
+// class constcanotinhet{
+	
+// }
 
 
 

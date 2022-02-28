@@ -4,55 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <title>Form Creation</title>
 </head>
-<body>
-    <h1>form creation</h1>
+<body bgcolor="#85E08B">
+    <h1 align="center">Form Creation</h1>
     <hr>
 
-    <form action="list.html">
-        <label for="name">name</label>
-        <input type="text" id="name" placeholder="enter your name"><br><br>
+    <form action="table.html">
 
-        <label for="mail">e-mail</label>
-        <input type="email" id="mail" placeholder="enter your e-namil id" required><br><br>
+        <label for="name">Name : </label> 
+        <input type="text" placeholder="Enter your name" id="name" required/><br><br>
 
-        <label for="pass">password</label>
-        <input type="password" id="pass" placeholder="enter your password" minlength="8" maxlength="15"><br><br>
 
-        <label for="dob">DOB</label>
-        <input type="datetime-local" id="dob"><br><br>
+        <label for="mail">mail : </label> 
+        <input type="email" placeholder="Enter your email"  id="mail"/> <br><br>
 
-        <label for="phno">phno</label>
-        <input type="tel" id="phno" value="+91" minlength="10" maxlength="13"><br><br>
+        <label for="pass">Password : </label>
+        <input type="password" placeholder="Enter your password" id="pass"
+        minlength="8" maxlength="16"><br><br>
+        
+        <label for="">Phone : </label>
+        <input type="tel" placeholder="Enter your phone number" minlength="10" maxlength="10" 
+        value="+91"><br><br>
 
-        <label for="fil">upload your resume</label><br>
-        <input type="file" id="fil"><br><br>
+        <label>DOB : </label>  
+        <input type="datetime-local"><br><br>
+
+        <label for="fi">Upload your Resume : </label>
+        <input type="file"  id="fi"><br><br>
+
 
         <fieldset>
-            <legend >select your gender</legend><br>
-        <input type="radio" name="gen" id="r"><label for="r">male</label><br>
-        <input type="radio" name="gen" id="e"><label for="e">female</label><br>
-        <input type="radio" name="gen" id="s"><label for="s">others</label><br>
+
+            <legend align="center">select your gender</legend><br>
+
+            <input type="radio" name="gender" id="m"><label for="m">Male</label><br>
+            <input type="radio" name="gender" id="f"><label for="f">Female</label><br>
+            <input type="radio" name="gender" id="o"><label for="o">others</label><br>
+
         </fieldset>
 
-       <fieldset>
-        <legend>your state</legend>
-        <select name="" id="">
-        <option >select</option>
-        <option >karnataka</option>
-        <option >andra</option>
-        <option >kerala</option>
-        </select>
-       </fieldset><br>
+        <fieldset>
 
-        <input type="submit" value="done">
-        <input type="reset" value="clear">
+            <legend>select your skills</legend>
+            <input type="checkbox" name="skills" id="j"><label for="j">JAVA</label><br>
+            <input type="checkbox" name="skills" id="h"><label for="h">HTML</label><br>
+            <input type="checkbox" name="skills" id="c"><label for="c">CSS</label><br>
+            <input type="checkbox" name="skills" id="js"><label for="js">JAVASCRIPT</label><br>
+            <input type="checkbox" name="skills" id="s"><label for="s">SQL</label><br>
+            <input type="checkbox" name="skills" id="a"><label for="a">ADVANCE JAVA</label><br>
 
-        
+        </fieldset>
 
+        <fieldset>
+            <legend align="center">select your state</legend>
+
+            <select name="state">
+                <option>--select--</option>
+                <option>Karnataka</option>
+                <option>Andra</option>
+                <option>Telangana</option>
+                <option>Tamil Nadu</option>
+                <option>Kerla</option>
+                <option>Rajasthan</option>
+                <option>Madhyapradesh</option>
+                <option>West bengal</option>
+            </select>
+
+        </fieldset>
+
+
+        <br><br>
+        <input type="submit" value="apply" >
+        <input type="reset" value="erase">
 
     </form>
+
+    <button>login</button>
+    <button>signup</button>
+
     
 </body>
 </html>

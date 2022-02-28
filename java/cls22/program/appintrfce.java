@@ -28,7 +28,8 @@ class Demo implements RUN1,RUN2{
 
 class appintrfce{
 	public static void main(String[] args) {
-		
+		// RUN1 r1;
+
 		Demo zo=new Demo();
 		zo.match();
 		zo.test();

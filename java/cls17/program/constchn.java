@@ -1,6 +1,6 @@
 class sample extends Object{
 	public sample(int s){
-		super();
+	super();
 		System.out.println("sample done");
 		System.out.println(s);
 
@@ -17,7 +17,7 @@ class demo extends sample{
 
 }
 
-class constchn extends Object{
+class constchn {
 	public static void main(String[] args) {
 		demo d= new demo();
 

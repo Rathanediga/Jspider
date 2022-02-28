@@ -1,17 +1,12 @@
 class CheckEvenOddSwitch{
 public static void main (String args[]){
-int num1=100;
-
-switch(num1%2)
-{
-case num1:
-    System.out.println(" is an Even number");
-    break;
-case num2:
-    System.out.println(" is an Odd number");
-    break;
-
+int a=5035;
+switch(a%2){
+    case 0:System.out.println(a+"is a even Number");break;
+    case 1:System.out.println(a+"is a odd Number");break;
+    default:System.out.println("enter value greater that 0");
 }
 
 }
 }
+

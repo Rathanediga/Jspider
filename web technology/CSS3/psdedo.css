@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px purple;
+}
+
+li:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px purple;
+}
+button:focus{
+    border: red 3px solid;
+    background-color: rgb(52, 52, 182);
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+h1:active{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+
+p::first-line{
+    color: blue;
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 35px;
+}
+p::before{
+    content: "***";
+}
+
+p::after{
+    content: "***";
+}
+
+p::selection{
+    color: white;
+    background-color: black;
+}
+
+input{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px purple;
+}
+
+input::placeholder{
+    color: purple;
+    font-weight: bold;
+}

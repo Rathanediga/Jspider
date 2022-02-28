@@ -19,9 +19,9 @@ class sample extends user{
 
 class goldrulemethovrrdngphly{
 	public static void main(String[] args) {
-		user u=new sample();
-		u.send();
-		// u.recieve();
+		user u1=new sample();
+		u1.send();
+		// u1.recieve();
 		
 	}
 }

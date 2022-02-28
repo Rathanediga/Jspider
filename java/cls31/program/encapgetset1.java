@@ -13,7 +13,7 @@ class account{
 	
 }
 
-class transaction{
+class transaction extends account{
 	public static void deposit(double amt,account a1) {
 		double d= a1.getBal();
 		d=d+amt;
