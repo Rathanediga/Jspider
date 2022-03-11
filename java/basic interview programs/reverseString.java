@@ -2,7 +2,7 @@
 
 class reverseString{
 	public static void main(String[] args) {
-		StringBuilder str=new StringBuilder("rathan is a software engineer");
+		StringBuffer str=new StringBuffer("rathan is a software engineer");
 		System.out.println(str.reverse());
 
 
@@ -28,11 +28,12 @@ class reverseString{
 		String str="rcb for ever";
 		String str1=" ";
 
-		for (int i=str.length()-1;i>=0 ;i-- ) 
-			{
-				str1=str1+str.charAt(i);
-			}	
+		for (int i=str.length()-1;i>=0 ;i-- ) {
+			str1=str1+str.charAt(i);
+			
+		}
 			System.out.println(str1);
+
 			
 		
 

@@ -8,7 +8,7 @@ class armstrongNum{
 
 		while(n>0){
 			i=n%10;
-			sum=sum+i*i*i;
+			sum=sum+i*i*i;	//sum=sum+math.pow(i,3)
 			n=n/10;
 			
 		}
